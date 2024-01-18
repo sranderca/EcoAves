@@ -1,0 +1,25 @@
+<>
+      <View style={styles.container}>
+        <Text style={styles.title}>
+          Especies de aves amenazadas en DRMI: Laguna de Sonso
+        </Text>
+        <TouchableOpacity>
+          <Image
+            source={require("./assets/anas.jpg")}
+            style={styles.image}
+          ></Image>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Image
+            source={require("./assets/anhima.jpg")}
+            style={styles.image}
+          ></Image>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Image
+            source={require("./assets/sarki.jpg")}
+            style={styles.image}
+          ></Image>
+        </TouchableOpacity>
+      </View>
+    </>
